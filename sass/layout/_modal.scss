@@ -1,6 +1,6 @@
 $duration: 250ms;
 $function: cubic-bezier(0.4, 0, 0.2, 1);
-$background-modal: #f7f7f7;
+$background-modal: #fff;
 
 $main-title-color: #ffffff;
 $third-text-color: #000000;
@@ -714,7 +714,7 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     width: 90vw;
     height: auto;
     padding: 15px;
-    background-color: #f3f3f5;
+    background-color: $background-modal;
     opacity: 1;
         -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -780,7 +780,7 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     width: 90vw;
     height: auto;
     padding: 15px;
-    background-color: #f3f3f5;
+    background-color: $background-modal;
     opacity: 1;
         -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);

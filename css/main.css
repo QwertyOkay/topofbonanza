@@ -658,7 +658,7 @@
   width: 90vw;
   height: auto;
   padding: 15px;
-  background-color: #f3f3f5;
+  background-color: #fff;
   opacity: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -724,7 +724,7 @@
   width: 90vw;
   height: auto;
   padding: 15px;
-  background-color: #f3f3f5;
+  background-color: #fff;
   opacity: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -789,7 +789,7 @@
   width: 90vw;
   height: auto;
   padding: 15px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   opacity: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1962,7 +1962,7 @@ u, ins {
   width: 90vw;
   height: auto;
   padding: 15px;
-  background-color: #f3f3f5;
+  background-color: #fff;
   opacity: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -2028,7 +2028,7 @@ u, ins {
   width: 90vw;
   height: auto;
   padding: 15px;
-  background-color: #f3f3f5;
+  background-color: #fff;
   opacity: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -2093,7 +2093,7 @@ u, ins {
   width: 90vw;
   height: auto;
   padding: 15px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   opacity: 1;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -3174,7 +3174,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(120, 18, 28);
+  background-color: #fe8d14;
   min-height: 30px;
   right: 11px;
   min-width: 30px;
@@ -3200,7 +3200,7 @@ button {
   position: absolute;
   min-width: 30px;
   padding: 0;
-  background-color: rgb(120, 18, 28);
+  background-color: #fe8d14;
   border-radius: 50%;
   color: #000;
   min-height: 30px;
@@ -3221,7 +3221,7 @@ button {
   top: 11px;
   min-height: 30px;
   position: absolute;
-  background-color: rgb(120, 18, 28);
+  background-color: #fe8d14;
   right: 11px;
   color: #000;
   min-width: 30px;
@@ -3245,7 +3245,7 @@ button {
   top: 11px;
   min-height: 30px;
   right: 11px;
-  background-color: rgb(120, 18, 28);
+  background-color: #fe8d14;
   padding: 0;
   border-radius: 50%;
   min-width: 30px;
