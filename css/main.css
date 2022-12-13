@@ -2577,6 +2577,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   text-align: center;
+  color: #fff;
 }
 
 a:hover {
@@ -2589,7 +2590,7 @@ button {
 
 .hero__section {
   background-image: url("../../img/header.jpg");
-  height: 80vh;
+  height: 83vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2899,7 +2900,7 @@ button {
 }
 
 .footer__bg {
-  background-color: #dedee9;
+  background-color: rgba(0, 0, 6, 0.9294117647);
 }
 
 .footer__a-hover:hover {
@@ -3349,7 +3350,7 @@ button {
   transform: translateY(-50%);
   cursor: pointer;
   user-select: none;
-  background: #78121c;
+  background: #fe8d14;
   position: absolute;
   top: 50%;
   display: flex;
@@ -3481,10 +3482,7 @@ button {
   height: 375px;
   display: flex;
   justify-content: center;
-  padding: 50px;
-  /*          background-color: #dbddda;
-   */
-  background-color: #f3f3f5;
+  padding: 20px 50px;
 }
 
 .slider__img {
@@ -3545,4 +3543,25 @@ button {
   .slider__section {
     margin-bottom: 25px;
   }
+}
+
+.slider__items-title {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.3;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.5rem;
+}
+
+.slider__items-price {
+  color: #222;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
