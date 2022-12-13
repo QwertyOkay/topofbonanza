@@ -2642,7 +2642,15 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .hero__button-shop {
-    box-shadow: none;
+    color: #ffa200;
+    border: 1px solid #ffa200;
+    margin-top: 1.4rem;
+    padding: 1.375rem 8.8rem;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 16px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
     margin-bottom: 20px;
   }
 }
@@ -2662,7 +2670,6 @@ button {
 @media screen and (min-width: 1200px) {
   .hero__flex-content {
     justify-content: flex-end;
-    background-color: rgba(0, 0, 0, 0.2196078431);
   }
 }
 
@@ -3569,6 +3576,18 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .banner-mg {
-    margin-top: 280px;
+    margin-top: 90px;
+  }
+}
+
+.banner-title {
+  font-size: 1.6rem;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: overline;
+}
+@media screen and (min-width: 1200px) {
+  .banner-title {
+    font-size: 2.6rem;
   }
 }/*# sourceMappingURL=main.css.map */

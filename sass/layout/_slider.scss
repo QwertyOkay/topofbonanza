@@ -258,6 +258,16 @@
   .banner-mg {
     margin-top: 75px;
     @media screen and (min-width:1200px) {
-      margin-top: 280px;
+      margin-top: 90px;
     }
+  }
+
+  .banner-title {
+    font-size: 1.6rem;padding: 10px;
+            text-transform: uppercase;    
+            text-decoration: overline;
+
+            @media screen and (min-width:1200px) {
+              font-size: 2.6rem;
+            }
   }
