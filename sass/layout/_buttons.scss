@@ -127,6 +127,7 @@ $buttons-color: #fe8d14;
     //     transition-duration: var(--duration);
     //     transition-timing-function: var(--function);
     transform: perspective(1px) translateZ(0);
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   // color: $main-title-color;
   // background-color: $accent-color;
   }

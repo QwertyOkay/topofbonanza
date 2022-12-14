@@ -2909,8 +2909,7 @@ button {
 }
 
 .footer__a-hover:hover {
-  text-decoration: underline;
-  color: rgb(47, 4, 4);
+  color: #fe8d14;
   font-weight: 400;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -3103,6 +3102,7 @@ button {
 }
 .button__hero:hover {
   transform: perspective(1px) translateZ(0);
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .button__hero:focus {
