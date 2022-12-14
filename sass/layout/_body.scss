@@ -479,8 +479,8 @@ button {
         text-transform: uppercase;
         left: auto;
         color: #fff;
-    border: 0px solid #93c01f;
-    background: linear-gradient(180deg, #78121c -7.29%, #67382e 130.21%);
+    // border: 0px solid #93c01f;
+    background: linear-gradient(180deg, #fe8d14 -7.29%, #fe8d14 130.21%);
         margin-top: 10px;
         display: block;
         text-align: center;
@@ -488,7 +488,8 @@ button {
       }
 
       .wrapper__buttons-sec:hover {
-        background:  rgb(120 18 28);
+        background:  #fff;
+        color: #fe8d14;
         transition: color .3s ease;
       }
 
@@ -582,4 +583,13 @@ display: flex;
         color: #fe8d14;
         font-weight: 400;
         animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .prod-height {
+        height: 40vh;
+
+        @media screen and (min-width: 1200px) {
+
+        height: 70vh;
+        }
     }
