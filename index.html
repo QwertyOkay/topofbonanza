@@ -49,7 +49,7 @@
       <div class="hero__flex-content" style="padding: 2rem 1rem 1rem;">
         <div class="banner-item banner-mg">
           <div class="banner-item-content">
-            <p class="banner-title">Oculus</p>
+            <p class="banner-title">Oculus </p>
           </div>
         </div>
         <div class="banner-item-content">
@@ -274,7 +274,6 @@
           <ul class="footer__ul" style="list-style:none ;">
             <li class="mr20"><a data-modal-open3 class="footer__a-hover">Terms and Conditions</a></li>
             <li class="mr20"><a data-modal-open2 class="footer__a-hover">Privacy </a></li>
-            <li class="mr20"><a data-modal-open1 class="footer__a-hover">Return</a></li>
           </ul>
         </div>
         <div>
@@ -299,10 +298,7 @@
           <noindex>
             <h3>Return</h3>
             <p class="modal__p">
-              Your purchase can be returned within 7 days from placing an order. For your assurance safeguarded the
-              bundle and dispatch by means of a traceable strategy. We are not mindful for misplaced or harmed bundles.
-              On the off chance that you select not to guaranteed your bundle, and we don't acknowledge return of the
-              item for reason stated over, you may be mindful for ANY misfortune or harm.
+              Your buy can be returned inside 7 days from setting an arrange. For your affirmation shielded the bundle and alacrity by implies of a traceable procedure. We are not careful for lost or hurt bundles. On the off chance simply select not to ensured your bundle, and we do not recognize return of the thing for reason expressed over, you'll be careful for ANY hardship or hurt.
             </p>
         </span>
         </noindex>
@@ -448,10 +444,6 @@ alters, or interferes with the use, features, functions, operation, or maintenan
     (() => {
       const refs = {
 
-        openModalBtn1: document.querySelector('[data-modal-open1]'),
-        closeModalBtn1: document.querySelector('[data-modal-close1]'),
-        modal1: document.querySelector('[data-modal1]'),
-
         openModalBtn2: document.querySelector('[data-modal-open2]'),
         closeModalBtn2: document.querySelector('[data-modal-close2]'),
         modal2: document.querySelector('[data-modal2]'),
@@ -462,19 +454,12 @@ alters, or interferes with the use, features, functions, operation, or maintenan
 
       };
 
-      refs.openModalBtn1.addEventListener('click', toggleModal1);
-      refs.closeModalBtn1.addEventListener('click', toggleModal1);
-
       refs.openModalBtn2.addEventListener('click', toggleModal2);
       refs.closeModalBtn2.addEventListener('click', toggleModal2);
 
       refs.openModalBtn3.addEventListener('click', toggleModal3);
       refs.closeModalBtn3.addEventListener('click', toggleModal3);
 
-
-      function toggleModal1() {
-        refs.modal1.classList.toggle('is-hidden1');
-      }
 
       function toggleModal2() {
         refs.modal2.classList.toggle('is-hidden2');

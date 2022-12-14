@@ -233,6 +233,7 @@
             <ul class="footer__ul" style="list-style:none ;">
               <li class="mr20"><a data-modal-open3 class="footer__a-hover">Terms and Conditions</a></li>
               <li class="mr20"><a data-modal-open2 class="footer__a-hover">Privacy </a></li>
+              <li class="mr20"><a data-modal-open1 class="footer__a-hover">Return</a></li>
             </ul>
           </div>
           <div>
@@ -243,6 +244,27 @@
       </footer>
     </main>
 
+    <div class="modal__backdrop1 is-hidden1" data-modal1>
+        <div class="modal1" data-form-modal1>
+    
+          <button type="button" class="button__modal1" data-modal-close1>
+            <svg class="icon__close3">
+              <use href="./img/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+    
+          <div class="modal4__pad">
+            <span class="modal__hero-text4" style="height: auto;">
+              <noindex>
+                <h3>Return</h3>
+                <p class="modal__p">
+                    Your buy can be returned inside 7 days from setting an arrange. For your affirmation shielded the bundle and alacrity by implies of a traceable procedure. We are not careful for lost or hurt bundles. On the off chance simply select not to ensured your bundle, and we do not recognize return of the thing for reason expressed over, you'll be careful for ANY hardship or hurt.
+                </p>
+            </span>
+            </noindex>
+          </div>
+        </div>
+      </div>
     
       <div class="modal__backdrop2 is-hidden2" data-modal2>
         <div class="modal2" data-form-modal2>
@@ -381,7 +403,10 @@
       <script>
         (() => {
           const refs = {
-
+    
+            openModalBtn1: document.querySelector('[data-modal-open1]'),
+            closeModalBtn1: document.querySelector('[data-modal-close1]'),
+            modal1: document.querySelector('[data-modal1]'),
     
             openModalBtn2: document.querySelector('[data-modal-open2]'),
             closeModalBtn2: document.querySelector('[data-modal-close2]'),
@@ -393,6 +418,8 @@
     
           };
     
+          refs.openModalBtn1.addEventListener('click', toggleModal1);
+          refs.closeModalBtn1.addEventListener('click', toggleModal1);
     
           refs.openModalBtn2.addEventListener('click', toggleModal2);
           refs.closeModalBtn2.addEventListener('click', toggleModal2);
@@ -401,6 +428,9 @@
           refs.closeModalBtn3.addEventListener('click', toggleModal3);
     
     
+          function toggleModal1() {
+            refs.modal1.classList.toggle('is-hidden1');
+          }
     
           function toggleModal2() {
             refs.modal2.classList.toggle('is-hidden2');
