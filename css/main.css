@@ -2599,7 +2599,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .hero__section {
-    height: 200vh;
+    height: 1550px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
