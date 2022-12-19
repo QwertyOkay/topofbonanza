@@ -2594,15 +2594,15 @@ button {
   height: 83vh;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
+  background-color: black;
 }
 @media screen and (min-width: 1200px) {
   .hero__section {
-    height: 1550px;
+    height: 1830px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.11), rgba(47, 48, 58, 0.02)), url("../../img/header.jpg");
   }
 }
@@ -2903,7 +2903,7 @@ button {
 @media screen and (min-width: 1200px) {
   .prod__pad {
     padding: 250px;
-    font-size: 70px !important;
+    font-size: 65px !important;
   }
 }
 
@@ -2923,7 +2923,23 @@ button {
 @media screen and (min-width: 1200px) {
   .prod-height {
     height: 70vh;
+    background-size: cover;
   }
+}
+
+.prod__margin {
+  margin-top: 175px;
+}
+@media screen and (min-width: 1200px) {
+  .prod__margin {
+    margin-top: 70px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+}
+
+.prod__bc {
+  background-size: cover;
 }
 
 .icon__raiting {
@@ -3613,7 +3629,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .banner-mg {
-    margin-top: 90px;
+    margin-top: 360px;
   }
 }
 
